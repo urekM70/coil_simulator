@@ -4,7 +4,7 @@ A real-time electromechanical coupling simulator framework for actuators and sol
 
 This application provides a foundation for simulating the multiphysics interactions of an electromagnetic actuator, currently focusing on analytical transient circuit equations, analytical inductance calculation, and 3D visualization.
 
-![Simulation Demo](https://via.placeholder.com/800x450.png?text=Add+a+Screenshot+or+GIF+of+the+simulator+here)
+![Simulation Demo](https://raw.githubusercontent.com/urekM70/coil_simulator/refs/heads/main/demo.png)
 
 ## Features
 * **Real-time 3D Visualization:** Custom OpenGL rendering engine for visualizing the coil and actuator mesh geometry, as well as generated magnetic field lines.
