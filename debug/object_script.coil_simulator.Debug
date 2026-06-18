@@ -1,0 +1,13 @@
+debug/main.o
+debug/mainwindow.o
+debug/openglwidget.o
+debug/mesh_generator.o
+debug/scene.o
+debug/ngspice_interface.o
+debug/simulation_controller.o
+debug/simulation_worker.o
+debug/moc_mainwindow.o
+debug/moc_openglwidget.o
+debug/moc_addobjectdialog.o
+debug/moc_simulation_controller.o
+debug/moc_simulation_worker.o

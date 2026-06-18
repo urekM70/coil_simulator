@@ -1,0 +1,13 @@
+release/main.o
+release/mainwindow.o
+release/openglwidget.o
+release/mesh_generator.o
+release/scene.o
+release/ngspice_interface.o
+release/simulation_controller.o
+release/simulation_worker.o
+release/moc_mainwindow.o
+release/moc_openglwidget.o
+release/moc_addobjectdialog.o
+release/moc_simulation_controller.o
+release/moc_simulation_worker.o
