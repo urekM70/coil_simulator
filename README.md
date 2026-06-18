@@ -16,17 +16,17 @@ This application provides a foundation for simulating the multiphysics interacti
 
 ```mermaid
 graph TD
-    User[User Input] -->|Geometry Params| Geo[Geometry Engine]
-    Geo -->|Mesh & Volume| EM[EM Solver]
+    User[User Input] -->|"Geometry Params"| Geo[Geometry Engine]
+    Geo -->|"Mesh & Volume"| EM[EM Solver]
     
-    EM -->|Inductance L(x)| Cache[Inductance Cache]
-    Cache -->|L(x), dL/dx| Circuit[Ngspice Circuit Solver]
+    EM -->|"Inductance L(x)"| Cache[Inductance Cache]
+    Cache -->|"L(x), dL/dx"| Circuit[Ngspice Circuit Solver]
     
-    Circuit -->|Current I(t)| Force[Force Calculation]
-    Cache -->|dL/dx| Force
+    Circuit -->|"Current I(t)"| Force[Force Calculation]
+    Cache -->|"dL/dx"| Force
     
-    Force -->|F_mag| Physics[Rigid Body Physics]
-    Physics -->|Position x(t)| Geo
+    Force -->|"F_mag"| Physics[Rigid Body Physics]
+    Physics -->|"Position x(t)"| Geo
 ```
 
 ## Dependencies & Requirements

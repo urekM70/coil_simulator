@@ -6,18 +6,18 @@
 
 ```mermaid
 graph TD
-    User[User Input] -->|Parameters| Geo[Geometry Engine]
-    Geo -->|Mesh & Volume| EM[EM Solver]
-    Geo -->|Movement| EM
+    User[User Input] -->|"Parameters"| Geo[Geometry Engine]
+    Geo -->|"Mesh & Volume"| EM[EM Solver]
+    Geo -->|"Movement"| EM
     
-    EM -->|Inductance L(x)| Cache[Inductance Cache]
-    Cache -->|L(x), dL/dx| Circuit[Circuit Solver]
+    EM -->|"Inductance L(x)"| Cache[Inductance Cache]
+    Cache -->|"L(x), dL/dx"| Circuit[Circuit Solver]
     
-    Circuit -->|Current I(t)| Force[Force Calculation]
-    Cache -->|dL/dx| Force
+    Circuit -->|"Current I(t)"| Force[Force Calculation]
+    Cache -->|"dL/dx"| Force
     
-    Force -->|F_mag| Physics[Rigid Body Physics]
-    Physics -->|Position x(t)| Geo
+    Force -->|"F_mag"| Physics[Rigid Body Physics]
+    Physics -->|"Position x(t)"| Geo
 ```
 
 ## 2. Components
